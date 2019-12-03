@@ -1,4 +1,4 @@
-#ニューラルネットワーク(回帰)
+#ニューラルネットワーク(分類)
 
 import numpy as np
 import matplotlib.pyplot as plt
