@@ -29,9 +29,9 @@ def output_layer(x,w,b):
 
 #分類結果を格納するリスト
 x_1 = []
+y_1 = []
 x_2 = []
-x_3 = []
-x_4 = []
+y_2 = []
 
 #グリッドの各マスでニューラルネットワークの演算
 for i in range(20):
@@ -55,5 +55,5 @@ for i in range(20):
 
 #散布図の表示
 plt.scatter(x_1, y_1, marker="+")
-plt.scatter(x_2, y_2, marker="○")
+plt.scatter(x_2, y_2, marker="o")
 plt.show()
